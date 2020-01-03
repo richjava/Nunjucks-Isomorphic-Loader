@@ -1,5 +1,9 @@
 # Nunjucks Isomorphic loader for webpack
 
+> Fork of SudoCat's [Nunjucks Isomorphic Loader](https://github.com/SudoCat/Nunjucks-Isomorphic-Loader) with a simple bug fix to make it run on Windows machines.
+
+----
+
 Nunjucks loader for webpack, supporting both javascript templating and generating static HTML files through the HtmlWebpackPlugin.
 
 Completely rewritten, now (mostly) error free. Supports context file (.js only) for passing data.

@@ -1,11 +1,11 @@
 {
-  "name": "nunjucks-isomorphic-loader",
-  "version": "2.0.2",
+  "name": "nunjucks-isomorphic-loader-ext",
+  "version": "1.0.0",
   "description": "A nunjucks loader for webpack, supporting both javascript template usage and static compilation through HtmlWebpackPlugin.",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git://github.com/sudocat/nunjucks-isomorphic-loader.git"
+    "url": "git://github.com/richjava/nunjucks-isomorphic-loader-ext.git"
   },
   "keywords": [
     "webpack",
