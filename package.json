@@ -1,7 +1,7 @@
 {
   "name": "nunjucks-isomorphic-loader-ext",
   "version": "1.0.0",
-  "description": "A nunjucks loader for webpack, supporting both javascript template usage and static compilation through HtmlWebpackPlugin.",
+  "description": "Fork of nunjucks-isomorphic-loader. A nunjucks loader for webpack, supporting both javascript template usage and static compilation through HtmlWebpackPlugin.",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -17,9 +17,9 @@
   "author": "Robin Neal <robinneal429@gmail.com> (http://robinneal.co.uk)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/sudocat/nunjucks-isomorphic-loader/issues"
+    "url": "https://github.com/richjava/nunjucks-isomorphic-loader-ext/issues"
   },
-  "homepage": "https://github.com/sudocat/nunjucks-isomorphic-loader",
+  "homepage": "https://github.com/richjava/nunjucks-isomorphic-loader-ext",
   "dependencies": {
     "loader-utils": "^1.1.0",
     "nunjucks-loader": "^2.4.5"

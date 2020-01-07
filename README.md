@@ -1,6 +1,6 @@
 # Nunjucks Isomorphic loader for webpack
 
-> Fork of SudoCat's [Nunjucks Isomorphic Loader](https://github.com/SudoCat/Nunjucks-Isomorphic-Loader) with a simple bug fix to make it run on Windows machines.
+> Fork of SudoCat's [Nunjucks Isomorphic Loader](https://github.com/SudoCat/Nunjucks-Isomorphic-Loader) with a simple bug fix to make it run on Windows machines. Made into separate NPM package because original is currently unmaintained and not accepting pull requests. 
 
 ----
 
