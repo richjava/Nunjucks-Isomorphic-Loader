@@ -77,7 +77,12 @@ module.exports = function(source) {
 		${precompiledTemplates}
 
 		var env = new nunjucks.Environment(new nunjucks.PrecompiledLoader());
-
+		env.addFilter('date', function (datetime) {
+			return new Date(datetime).toLocaleDateString('en-US', {
+				weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
+			});
+		  });
+		  
 		var context = JSON.parse('${context}');
 
 		module.exports = env.render("${name}", context);
