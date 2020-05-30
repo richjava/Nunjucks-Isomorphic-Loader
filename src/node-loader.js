@@ -77,6 +77,11 @@ module.exports = function(source) {
 		${precompiledTemplates}
 
 		var env = new nunjucks.Environment(new nunjucks.PrecompiledLoader());
+		
+		env.addGlobal('toDate', function(date) {
+			return date ? new Date(date) : new Date();
+		});
+
 		env.addFilter('date', function (datetime) {
 			return new Date(datetime).toLocaleDateString('en-US', {
 				weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
