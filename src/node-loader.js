@@ -83,7 +83,9 @@ module.exports = function(source) {
 		});
 
 		env.addFilter('date', function (datetime) {
-			return new Date(datetime).toLocaleDateString('en-US', {
+			if(!datetime) return;
+			var d = new Date(datetime); 
+			return new Date(d.getTime() - d.getTimezoneOffset() * 60000).toLocaleDateString('en-US', {
 				weekday: 'long', year: 'numeric', month: 'long', day: 'numeric'
 			});
 		  });
